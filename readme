@@ -1,0 +1,26 @@
+    abstract Class Cshape
+    {
+    protcted String color;
+    public void SetColor(String str){
+    color=str;
+    }
+    public abstrct void show()
+    }
+    public class triangle extends CSape
+    {
+    protect doube a,b,c;
+    public Ctriangle (double a,double b,double c)
+    {
+      this.a=a;
+      this.b=b;
+      this.c=c;}
+    public void show(){
+    System.out.print("color="+color+", ");
+    System.out.println("area="+0.5*a*b)}
+            }
+    public class app11_19
+    public static void main(String args[])
+      {Ctriangle rect=new Ctriangle(3,4,5);
+      rect.SetColor("red");
+      rect.show();}
+      }
